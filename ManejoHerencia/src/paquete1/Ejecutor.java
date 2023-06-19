@@ -58,7 +58,7 @@ public class Ejecutor {
                 }
             }catch (Exception err){
                 System.out.println("Error en la Digitación de datos");
-
+                entrada.next();
             }
         }
     }
